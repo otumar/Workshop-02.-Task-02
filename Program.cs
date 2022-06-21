@@ -1,6 +1,6 @@
 ﻿//Напишите программу, которая выводит случайное трехзначное число и удаляет вторую цифру этого числа
 
-int number = new Random().Next(100,999);
+int number = new Random().Next(100,1000);
 System.Console.WriteLine(number);
 
 int number1 = number / 100;
